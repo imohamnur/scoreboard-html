@@ -1,0 +1,55 @@
+@font-face {
+    font-family: scoreboard;
+    src: url("cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+}
+
+h1, h2, h3, h4, p {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-family: scoreboard;
+    background-color: rgba(27,36,74,255);
+    border: 1px solid rgba(236,236,237,255);
+    color: rgba(236,236,237,255);
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: 15px;
+
+}
+
+.title {
+    color: rgba(236,236,237,255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.score {
+    color: rgba(249,79,109,255);
+    font-family: scoreboard;
+    font-size: 70px;
+    padding: 15px 25px 0px 25px;
+}
+
+.score-div {
+    background-color: rgba(8,0,1,255);
+    border-radius: 10px;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27,36,74,255);
+    padding: 30px;
+}
